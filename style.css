@@ -29,7 +29,13 @@
   }
   
   main {
-    background: url("puppies.jpg") no-repeat center center;
+    background: url("img/puppies.jpg") no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+  }
+
+  .imgpetservices {
+    background-image: url(../OhPuppies/img/Puppies2.jpg) no-repeat center center;
     background-size: cover;
     height: 92vh;
   }
@@ -108,4 +114,15 @@
   
   .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
+  }
+
+  #cardbathgroom {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 20vh;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 48px;
+    color: black;
   }
